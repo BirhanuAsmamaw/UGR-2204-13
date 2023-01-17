@@ -1,0 +1,93 @@
+.discription{
+    background-color:   #E4F9F7;
+    margin: 4px 0px ;
+    padding: 15px 15px 15px 15px;
+}
+
+.discription__disc1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .discription__disc1{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    .discription__disc2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.discription__disc1 img{
+    margin: 10px  30px 30px 4px;
+    border: 10px solid white ;
+    width : 40% ;
+    display: flex;
+    height: 330px ;
+    box-shadow: 3px 3px 14px;
+}
+.discription__disc1 img:hover{
+    box-shadow: 3px 3px;
+    transform: scale(1.07);
+    transition: 1.3s;
+    
+}
+
+.discription__disc2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.discription__disc2 video{
+    margin: 10px  30px 0px 4px;
+    width : 40% ;
+    display: flex;
+    border: 10px solid white ;
+    box-shadow: 3px 3px 14px;
+}
+
+.discription__disc2 video:hover{
+    box-shadow: 3px 3px;
+    transform: scale(1.07);
+    transition: 1.3s;
+    
+}
+
+p{
+    padding:20px 10px ;
+    width: 80%;
+    font-family: 'Sacramento', cursive;
+}
+
+.discription__disc1 h3{
+   padding-left:70px ;
+   font-size: 30px;
+   font-family: 'Sacramento', cursive;
+   text-decoration: underline;
+   color: #2374AB;
+}
+.discription__disc2 ul{
+    padding:10px 10px ;
+    width: 80%;
+    font-family: 'Sacramento', cursive; 
+}
+
+.discription__disc2__list{
+    margin-left: 50px;
+}
+h4{
+    padding-left:10px ;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+   text-decoration: underline;
+   color: #2374AB;
+}
