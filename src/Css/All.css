@@ -287,3 +287,6 @@ float: right;
 .white{
     color: white;
 }
+.nav-block a{
+    display:block;
+}
