@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js" defer></script>
+  </head>
+
+  <body>
+    <nav class="navbar justify-content-around navbar-light bg-dark mb-0 p-2 h1">
+      <div class="navbar-brand text-warning mb-0 col-sm-4">Tutorial</div>
+    </nav>
+
+    <nav
+      class="navbar justify-content-around align-items-center navbar-expand-sm mt-0 mb-0 navbar-light bg-secondary h6"
+    >
+      <a
+        type="button "
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler text-white p-2"
+        aria-controls="navbarBav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        +menu
+      </a>
+
+      <div
+        class="collapse mb-0 justify-content-around navbar-collapse p-0"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav mt-1 mb-0">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link text-white"> Home </a>
+          </li>
+          <li class="nav-item active">
+            <a href="About.html" class="nav-link text-white"> About </a>
+          </li>
+          <li class="nav-item active">
+            <a href="Register.html" class="nav-link text-white"> Register </a>
+          </li>
+
+          <li class="nav-item active">
+            <a href="Contact.html" class="nav-link text-white"> Contact </a>
+          </li>
+          <li class="nav-item active">
+            <a href="Login.html" class="nav-link text-white"> Login </a>
+          </li>
+          <li class="nav-item active">
+            <a href="Signup.html" class="nav-link text-white"> Signup </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="d-flex flex-column pb-5 bg-black p-3 justify-content-evenly">
+      <h1 class="h1 text-center pb-3 mt-0 text-success">Sign Up</h1>
+
+    <form action = " " class = "was-validated " autocomplete="on">  
+      <div class = "username mt-3 w-75">
+        <label class="text-success mx-auto " for="uname">Enter Email:</label>
+          <input   type = "text" class = "form-control w-50 mb-4" id = " uname " placeholder = "Email Address" name = " uname " required>    
+      </div>  
+      
+      <div class = "passwrd mt-3 w-75 ">  
+        <label class="text-success mx-auto " for="password">Password:</label>
+        <input type = "text" class = "form-control w-50 mb-5" id = "password" placeholder = "Enter password" name = "password" required>   
+      </div>
+      
+      <button type = "submit" class = "btn w-25 btn-primary mt-2 mb-5"> Submit </button>
+          
+    </form>
+</div>
+    
+    </div>
+
+    <footer class="bg-info d-flex justify-content-around p-4">
+      <div class="d-flex flex-column">
+        <h3 class="">Social Medias</h3>
+        <div class="d-flex flex-row justify-content-evenly">
+          <a href="https://www.linkedin.com/in/birhanu-asmamaw-362464258/"
+            ><img src="images/facebook.png" alt=" facebook icon"
+          /></a>
+          <a href="https://www.linkedin.com/in/birhanu-asmamaw-362464258/"
+            ><img src="images/linkedin.png" alt="linkedin link icon"
+          /></a>
+          <a href="https://www.linkedin.com/in/birhanu-asmamaw-362464258/"
+            ><img src="images/twitter.png" alt="Twitter icon"
+          /></a>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column">
+        <h3>Email</h3>
+        <a class="text-black" href="mailto:birhanuasmamaw24@gmail.com"
+          >birhanuasmamaw24@gmail.com</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
